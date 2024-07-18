@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("hotel_room_2-wallpaper-3554x1999.jpg");
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background:none;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(34, 24, 24, 0.3);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #6a5a7e;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgba(206, 197, 198, 0.3);
+}
+
+button {
+  background-color: #046407;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #07e012;
+}
+
+small {
+  color: #275a83;
+}
